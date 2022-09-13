@@ -1,0 +1,9 @@
+name: MobHealth
+version: '${project.version}'
+main: fr.arcane.mobhealth.MobHealth
+api-version: 1.17
+commands:
+  resethealth:
+    description: Setting player's max health to 20
+    usage: /resethealth <player>
+    permission: mobhealth.reset
